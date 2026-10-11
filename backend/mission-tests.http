@@ -1,0 +1,2 @@
+### Assign a satellite to a mission
+POST http://localhost:8081/api/missions/1/satellites/2

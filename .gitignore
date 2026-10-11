@@ -1,0 +1,32 @@
+# Frontend dependencies and build files
+
+frontend/node_modules/
+frontend/dist/
+
+# Backend build files
+
+backend/target/
+
+# Git metadata
+
+.git/
+frontend/.git/
+backend/.git/
+
+# Environment files and secrets
+
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/.env
+backend/.env.*
+
+# IDE and operating system files
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
