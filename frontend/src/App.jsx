@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import "./App.css";
 import SpaceMap from "./SpaceMap";
 
-const API = "http://localhost:8081/api";
+const API = "https://space-mission-management-platform.onrender.com/api";
 
 const sections = {
   Missions: {
